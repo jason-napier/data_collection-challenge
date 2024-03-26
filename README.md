@@ -1,8 +1,14 @@
-# data_collection-challenge
+# Mars Exploration Web Scraping and Data Analysis Project
 Repository for Module 11 Challenge
-For this project, information was scraped from websites about Mars, collected into a data structure and analyzed. 
 
-In this repositor are the following files:
+## Overview
+
+This project is an exploration into the realm of web scraping and data analysis, focusing on gathering and analyzing data about Mars. Utilizing Python, alongside libraries such as Splinter, Beautiful Soup, Pandas, and Matplotlib, this project is split into two distinct parts:
+
+- **Part 1: Mars News Scraping**: Extracts titles and preview text from Mars news articles.
+- **Part 2: Mars Weather Data Analysis**: Scrapes and analyzes Mars weather data, focusing on temperature and atmospheric pressure.
+
+## Repository Structure
 
 *part_1_mars_news.ipynb*
 	-The url 'https://static.bc-edx.com/data/web/mars_news/index.html' was scraped. The titles and preview text were extracted. This information was saved to a dictionary in .json format.
@@ -19,6 +25,26 @@ In this repositor are the following files:
 
 *Mars_Temperature_Data.csv*
 	-A .csv file of the dataframe created by scraping data from the table from url https://static.bc-edx.com/data/web/mars_facts/temperature.html.
+
+## Tools and Libraries Used
+
+- **Python**: The core programming language used for this project.
+- **Splinter**: Automated web browser interaction for scraping.
+- **Beautiful Soup**: HTML parsing and scraping.
+- **Pandas**: Data manipulation and analysis.
+- **Matplotlib**: Data visualization.
+
+## Getting Started
+
+### Dependencies
+
+Ensure you have Python 3.x installed along with Jupyter Notebooks. The project's dependencies can be installed using:
+
+```bash
+pip install pandas matplotlib beautifulsoup4 splinter
+
+
+
 
 Other Notes:
 -Special thanks to Lucas Ludwig for collaboration on examining Martian year prediction.
