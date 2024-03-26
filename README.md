@@ -40,12 +40,14 @@ This project is an exploration into the realm of web scraping and data analysis,
 
 Ensure you have Python 3.x installed along with Jupyter Notebooks. The project's dependencies can be installed using:
 
-```bash
 pip install pandas matplotlib beautifulsoup4 splinter
 
+## Conclusion
+This project showcases the power of web scraping for data collection and the effectiveness of Python libraries for data analysis and visualization. Through careful examination of Mars news and weather data, we gain fascinating insights into the red planet's climate and how it compares to Earth's.
 
+## Notes
+- Special thanks to Lucas Ludwig for collaboration on examining Martian year prediction.
+- Information is used with permission by and is property of edX and is intended for educational purposes only.
 
-
-Other Notes:
--Special thanks to Lucas Ludwig for collaboration on examining Martian year prediction.
--Information is used with permission by and is property of edX and is intended for educational purposes only.
+## References
+The Mars News websiteLinks to an external site. is operated by edX Boot Camps LLC for educational purposes only. The news article titles, summaries, dates, and images were scraped from NASA's Mars NewsLinks to an external site. website in November 2022. Images are used according to the JPL Image Use PolicyLinks to an external site., courtesy NASA/JPL-Caltech.
